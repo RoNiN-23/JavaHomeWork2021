@@ -32,7 +32,6 @@ public class Main {
                 break;
                 case 2:{
                     Stream <Human> sortByDate = input.stream();
-
                     sortByDate.sorted(new HumanComparator()).forEach(System.out::println);
                     System.out.println("========================================================================");
                 }
